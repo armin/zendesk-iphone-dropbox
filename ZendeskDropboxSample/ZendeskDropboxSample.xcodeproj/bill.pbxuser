@@ -1,0 +1,204 @@
+// !$*UTF8*$!
+{
+	1D6058900D05DD3D006BFB54 /* ZendeskDropboxSample */ = {
+		activeExec = 0;
+		executables = (
+			A937CF860FD5313F002C03D5 /* ZendeskDropboxSample */,
+		);
+	};
+	28D7ACF60DDB3853001CB0EB /* ZendeskDropboxSampleViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {539, 350}}";
+			sepNavSelRange = "{444, 0}";
+			sepNavVisRange = "{69, 382}";
+		};
+	};
+	28D7ACF70DDB3853001CB0EB /* ZendeskDropboxSampleViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {439, 2422}}";
+			sepNavSelRange = "{243, 0}";
+			sepNavVisRange = "{0, 299}";
+			sepNavWindowFrame = "{{15, 15}, {1517, 1158}}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = A937CF860FD5313F002C03D5 /* ZendeskDropboxSample */;
+		activeSDKPreference = iphoneos2.2.1;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* ZendeskDropboxSample */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* ZendeskDropboxSample */,
+		);
+		codeSenseManager = A937CF970FD5315E002C03D5 /* Code sense */;
+		executables = (
+			A937CF860FD5313F002C03D5 /* ZendeskDropboxSample */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					361,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 265651183;
+			PBXWorkspaceStateSaveDate = 265651183;
+		};
+		perUserProjectItems = {
+			A937CFB40FD53364002C03D5 = A937CFB40FD53364002C03D5 /* PBXTextBookmark */;
+			A937CFB50FD53364002C03D5 = A937CFB50FD53364002C03D5 /* PBXTextBookmark */;
+			A937CFB60FD53364002C03D5 = A937CFB60FD53364002C03D5 /* PBXTextBookmark */;
+			A937CFD30FD533A8002C03D5 = A937CFD30FD533A8002C03D5 /* PBXTextBookmark */;
+			A937CFD40FD533A8002C03D5 = A937CFD40FD533A8002C03D5 /* PBXTextBookmark */;
+			A937CFD50FD533A8002C03D5 = A937CFD50FD533A8002C03D5 /* PBXTextBookmark */;
+			A937CFD60FD533A8002C03D5 = A937CFD60FD533A8002C03D5 /* PBXTextBookmark */;
+			A937CFE40FD53683002C03D5 = A937CFE40FD53683002C03D5 /* PBXTextBookmark */;
+		};
+		sourceControlManager = A937CF960FD5315E002C03D5 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	8D1107310486CEB800E47090 /* Info.plist */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{15, 15}, {1517, 1158}}";
+		};
+	};
+	A937CF860FD5313F002C03D5 /* ZendeskDropboxSample */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = ZendeskDropboxSample;
+		savedGlobals = {
+		};
+		sourceDirectories = (
+		);
+	};
+	A937CF960FD5315E002C03D5 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryName = Finger;
+		};
+	};
+	A937CF970FD5315E002C03D5 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	A937CFAD0FD5326E002C03D5 /* ZendeskDropbox.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {539, 924}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 516}";
+		};
+	};
+	A937CFB40FD53364002C03D5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* ZendeskDropboxSampleViewController.h */;
+		name = "ZendeskDropboxSampleViewController.h: 22";
+		rLen = 0;
+		rLoc = 444;
+		rType = 0;
+		vrLen = 382;
+		vrLoc = 69;
+	};
+	A937CFB50FD53364002C03D5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* ZendeskDropboxSampleViewController.m */;
+		name = "ZendeskDropboxSampleViewController.m: 55";
+		rLen = 0;
+		rLoc = 1400;
+		rType = 0;
+		vrLen = 674;
+		vrLoc = 1163;
+	};
+	A937CFB60FD53364002C03D5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* ZendeskDropboxSampleViewController.h */;
+		name = "ZendeskDropboxSampleViewController.h: 22";
+		rLen = 0;
+		rLoc = 444;
+		rType = 0;
+		vrLen = 382;
+		vrLoc = 69;
+	};
+	A937CFD30FD533A8002C03D5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A937CFAD0FD5326E002C03D5 /* ZendeskDropbox.h */;
+		name = "ZendeskDropbox.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 516;
+		vrLoc = 0;
+	};
+	A937CFD40FD533A8002C03D5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "error: 'ZendeskDropbox' undeclared (first use in this function)";
+		fRef = 28D7ACF70DDB3853001CB0EB /* ZendeskDropboxSampleViewController.m */;
+		rLen = 1;
+		rLoc = 63;
+		rType = 1;
+	};
+	A937CFD50FD533A8002C03D5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* ZendeskDropboxSampleViewController.m */;
+		name = "ZendeskDropboxSampleViewController.m: 63";
+		rLen = 67;
+		rLoc = 1526;
+		rType = 0;
+		vrLen = 673;
+		vrLoc = 1161;
+	};
+	A937CFD60FD533A8002C03D5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A937CFAD0FD5326E002C03D5 /* ZendeskDropbox.h */;
+		name = "ZendeskDropbox.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 516;
+		vrLoc = 0;
+	};
+	A937CFE40FD53683002C03D5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* ZendeskDropboxSampleViewController.m */;
+		name = "ZendeskDropboxSampleViewController.m: 58";
+		rLen = 0;
+		rLoc = 1443;
+		rType = 0;
+		vrLen = 680;
+		vrLoc = 1224;
+	};
+}
