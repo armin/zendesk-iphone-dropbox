@@ -3,7 +3,7 @@
 //  CocoaZendesk
 //
 //  Created by Bill So on 06/05/2009.
-//  Copyright 2009 __MyCompanyName__. All rights reserved.
+//  Copyright 2009 Zendesk Inc. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
@@ -21,16 +21,17 @@ extern NSString *const ZendeskDropboxEmail;
 extern NSString *const ZendeskDropboxSubject;
 extern NSString *const ZendeskURLDoesNotExistException;
 
-/** \defgroup delegate_methods Delegate methods
+/** delegate_methods Delegate methods
  */
 
 /** ZendeskDropbox object is the only object you need to create to send ticket to Zendesk. ZendeskDropbox provides asynchronous sending of ticket to Zendesk server.
- <p>To use this class, you must add a key ZDURL to your application's plist. Put your Zendesk URL as value, e.g. mysite.zendesk.com.</p>
+ To use this class, you must add a key ZDURL to your application's plist. Put your Zendesk URL as value, e.g. mysite.zendesk.com.
  */
 @interface ZendeskDropbox : NSObject {
 	id delegate;
 	NSMutableData * receivedData;
 	NSString *baseURL;
+	NSString *tag;
 }
 
 @property (retain, nonatomic) id delegate; /** set or get the delegate.  */
@@ -46,15 +47,12 @@ extern NSString *const ZendeskURLDoesNotExistException;
 @interface NSObject (ZendeskDropboxDelegate)
 
 /** Sent when connected to Zendesk server
- \ingroup delegate_methods
  */
 - (void)submissionConnectedToServer:(ZendeskDropbox *)connection;
 /** Sent when the ticket is submitted to Zendesk server successfully
- \ingroup delegate_methods
  */
 - (void)submissionDidFinishLoading:(ZendeskDropbox *)connection;
 /** Sent when ticket submission failed.
- \ingroup delegate_methods
  */
 - (void)submission:(ZendeskDropbox *)connection didFailWithError:(NSError *)error;
 

@@ -31,6 +31,7 @@ extern NSString *const ZendeskURLDoesNotExistException;
 	id delegate;
 	NSMutableData * receivedData;
 	NSString *baseURL;
+	NSString *tag;
 }
 
 @property (retain, nonatomic) id delegate; /** set or get the delegate.  */

@@ -25,9 +25,11 @@ Integration instructions
 ------------------------------------------
 1. Add ZendeskDropboxLib to your project.
 
-2. Open Info.plist in your project. Add the key "ZDURL" and put the URL of your Zendesk account there. E.g. example.zendesk.com
+2. Open Info.plist in your project. Add the key "ZDURL" and put the URL of your Zendesk account there. E.g. "example.zendesk.com"
 
-3. Implement the ticket input form. You have to build your own UI for users to enter information and submit the ticket.
+3. Optionally specify the tag for tickets (the default is dropbox) In Info.plist add the key "ZDTAG" and put a tag . E.g. "iphone"
+
+4. Implement the ticket input form. You have to build your own UI for users to enter information and submit the ticket.
 
 The sample code uses a UITableView to implement a Mail-like interface for ticket input. Please refer to ZendeskDropboxSampleViewController.m for details.
 
